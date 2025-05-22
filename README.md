@@ -1,4 +1,4 @@
-## DynSE-BDResNet：Dual-Path Dynamically Regularized Residual Learning with Bayesian-Channel Co-Attention in Heart Murmur Detection (Machine Learning in Audio Signal Processing Spring 2025)
+## DynSE-BDResNet: Dual-Path Dynamically Regularized Residual Learning with Bayesian-Channel Co-Attention in Heart Murmur Detection (Machine Learning in Audio Signal Processing Spring 2025)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,12 +11,12 @@
 **3. Heterogeneous Multimodal Decision Fusion**
  We establish an end-to-end fusion pipeline that jointly optimizes deep auditory representations and shallow clinical biomarkers. The framework hierarchically combines (1) high-dimensional latent features from the ResNet’s penultimate layer, encoding nonlinear acoustic texture patterns, (2) 18 clinical covariates (demographic/auscultation metadata), and (3) 23 handcrafted complexity descriptors (multiscale entropy, spectral-temporal variability). A gradient-boosted ensemble learner with adaptive tree-depth modulation (max_depth=8) is employed to model cross-modal interactions, dynamically weighting feature contributions through impurity-based importance scoring. The architecture’s decision boundaries are further regularized via Bayesian hyperparameter optimization, ensuring robustness to feature scale disparities.
 
-| Rank | Model                             | Weighted Accuracy (↑) | Weighted Accuracy (Validation) | Weighted Accuracy (Cross-Val) |
-| ---- | --------------------------------- | --------------------- | ------------------------------ | ----------------------------- |
-| 1    | **DynSE-BDResNet+XGBoost** | **0.914**             | **0.788**                      | **0.753**                     |
-| 2    | M2D                               | 0.832                 | 0.713                          | -                             |
-| 3    | DBResNet                          | 0.771                 | 0.768                          | -                             |
-| 4    | Inception Time                    | 0.593                 | 0.522                          | 0.497±0.083                   |
+| Rank | Model                             | Weighted Accuracy (↑) | Weighted Accuracy (Validation) |
+| ---- | --------------------------------- | --------------------- | ------------------------------ |
+| 1    | **DynSE-BDResNet+XGBoost** | **0.914**             | **0.778**                      |
+| 2    | M2D                               | 0.832                 | 0.713                          |
+| 3    | DBResNet                          | 0.771                 | 0.768                          |
+| 4    | Inception Time                    | 0.593                 | 0.522                          |
 
 ## Data
 ### CirCor DigiScope
