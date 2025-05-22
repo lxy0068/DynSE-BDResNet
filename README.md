@@ -58,7 +58,7 @@ python main.py
 ## Experimental Environment
 
 - **GPU**: NVIDIA GeForce RTX 4090 (24GB GDDR6X) × 1  
-- **CPU**: 16 virtualized cores (Intel® Xeon® Platinum 8352V @ 2.10GHz, Cascade Lake架构)  
+- **CPU**: 16 virtualized cores (Intel® Xeon® Platinum 8352V @ 2.10GHz, Cascade Lake)  
 - **RAM**: 120GB DDR4 ECC Memory  
 - **Storage**: 30GB NVMe SSD System Partition  
 The RTX 4090's third-generation RT cores and 24GB VRAM particularly accelerate attention-based feature recalibration modules through tensor core optimization.
