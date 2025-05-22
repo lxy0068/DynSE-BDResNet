@@ -13,14 +13,18 @@
 
 | Rank | Model                             | Weighted Accuracy (↑) | Weighted Accuracy (Validation) | Weighted Accuracy (Cross-Val) |
 | ---- | --------------------------------- | --------------------- | ------------------------------ | ----------------------------- |
-| 1    | **DynSE-BDResNet—XGBoost Fusion** | **0.914**             | **0.788**                      | **0.753**                     |
+| 1    | **DynSE-BDResNet+XGBoost** | **0.914**             | **0.788**                      | **0.753**                     |
 | 2    | M2D                               | 0.832                 | 0.713                          | -                             |
 | 3    | DBResNet                          | 0.771                 | 0.768                          | -                             |
 | 4    | Inception Time                    | 0.593                 | 0.522                          | 0.497±0.083                   |
 
 ## Data
+### CirCor DigiScope
 
-The challenge dataset can be downloaded via this [link](https://physionet.org/static/published-projects/circor-heart-sound/the-circor-digiscope-phonocardiogram-dataset-1.0.3.zip)
+Introduced by Oliveira et al. in [The CirCor DigiScope Dataset: From Murmur Detection to Murmur Classification](https://arxiv.org/pdf/2108.00813v1)
+
+CirCor DigiScope is currently the largest pediatric heart sound dataset. A total of 5282 recordings have been collected from the four main auscultation locations of 1568 patients, in the process 215780 heart sounds have been manually annotated. Each cardiac murmur has been manually annotated by an expert annotator according to its timing, shape, pitch, grading and quality.
+The dataset can be downloaded via this [link](https://physionet.org/static/published-projects/circor-heart-sound/the-circor-digiscope-phonocardiogram-dataset-1.0.3.zip)
 
 ## Dependencies
 
