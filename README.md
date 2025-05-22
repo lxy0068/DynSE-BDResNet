@@ -13,7 +13,7 @@
 
 | Rank | Model                             | Weighted Accuracy (↑) | Weighted Accuracy (Validation) |
 | ---- | --------------------------------- | --------------------- | ------------------------------ |
-| 1    | **DynSE-BDResNet+XGBoost** | **0.914**             | **0.778**                      |
+| 1    | **DynSE-BDResNet+XGBoost** | **0.845**             | **0.788**                      |
 | 2    | M2D                               | 0.832                 | 0.713                          |
 | 3    | DBResNet                          | 0.771                 | 0.768                          |
 | 4    | Inception Time                    | 0.593                 | 0.522                          |
@@ -58,6 +58,8 @@ These steps can be run independently using the relevant script, or sequentially 
 ```shell
 python main.py
 ```
+
+![threshold_plot](https://github.com/user-attachments/assets/c87766c0-1f41-4bd3-9d97-f8fb332cf5c7)
 
 ## Experimental Environment
 
